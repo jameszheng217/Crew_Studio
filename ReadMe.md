@@ -4,15 +4,15 @@ Welcome to the **Web Development Projects** repository! This repository contains
 
 ## Project List
 
-1. **Quiz Web App**
+1. **Quizzify - An Web App**
    - Description: The Quiz Web App is an interactive application that allows users to test their knowledge by answering multiple-choice questions. It fetches questions from the Open Trivia API and provides a score at the end of the quiz. The app has a responsive design and features a timer to add excitement.
    - Technologies: HTML, CSS, JavaScript, Open Trivia API
-   - Demo: [Quiz Web App Demo](https://quizwhiz.vercel.app)
+   - Demo: [Quizzify App Demo](https://quizwhiz.vercel.app)
 
-2. **Project 2**: [Project Name]
-   - Description: [Briefly describe the project, its purpose, and features.]
-   - Technologies: [List the technologies used, such as HTML, CSS, JavaScript, etc.]
-   - Demo: [If available, provide a link to the live demo or a video showcasing the project.]
+2. **Age Wizard - Age Calculator**
+   - Description: The Age Wizard is an age calculator built using HTML, CSS, and JavaScript. It allows users to calculate their age by entering their birth date. The app dynamically calculates the age and displays it in years, months, and days. It provides a visually appealing user interface with smooth animations.
+   - Technologies: HTML, CSS, JavaScript
+   - Demo: [Age Wizard Demo](https://age-wizard.vercel.app)
 
 3. **Project 3**: [Project Name]
    - Description: [Briefly describe the project, its purpose, and features.]
