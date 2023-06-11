@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Wizard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Temperature Wizard - A Temperature Converter </h1>
+        <div class="temp-container">
+            <label for="Celcius">Celcius</label>
+            <input 
+            onchange ="computeTemp(event)"
+            type="number" 
+            name="Celcius" 
+            id="Celcius" 
+            class="Celcius" 
+            placeholder="Enter Temperature in Celcius"/>    
+        </div>
+        <div class="temp-container">
+            <label for="fahre">Fahrenheit</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Fahrenheit" 
+            id="Fahrenheit" 
+            class="Fahrenheit" 
+            placeholder="Enter Temperature in Fahrenheit"/>    
+        </div>
+        <div class="temp-container">
+            <label for="Kelvin">Kelvin</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Kelvin" 
+            id="Kelvin" 
+            class="Kelvin" 
+            placeholder="Enter Temperature in Kelvin"/>    
+        </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
