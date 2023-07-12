@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+
+/* #resume-form {
+    display: none;
+} */
+
+#resume-template {
+  display: none;
+}
+
+.background {
+  background-color: #3a9aff;
+}
+
+.img-logo {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+p {
+  color: white;
+}
+
+.name1,
+.address1 {
+  font-size: 20px;
+}
+.email1,
+.phn1 {
+  font-size: 18px;
+}
+.personal {
+  padding-bottom: 10px;
+}
+
+.hr-row {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  max-width: fit-content;
+}
+.social-head {
+  color: white;
+  font-weight: bold;
+}
+.social {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.btn-primary {
+  color: #02040e;
+  padding: 15px 0; /* Adjust the vertical padding as needed */
+  border-radius: 100px;
+  background-color: #6baef1;
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 87% at 26% 20%,
+      rgba(255, 255, 255, 0.41) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-primary:first-child {
+  margin-top: 25px;
+}
+
+.btn-primary:last-child {
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.btn-primary:hover {
+  background-color: #1c2938;
+  transform: scale(1.05);
+  color: #6baef1;
+}
+
+.text-center {
+  color: #000;
+}
+
+.txt {
+  font: 2.5rem sans-serif;
+}
+
+.btn-add {
+  color: #02040e;
+  padding: 15px 0; /* Adjust the vertical padding as needed */
+  border-radius: 100px;
+  background-color: #6baef1;
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 87% at 26% 20%,
+      rgba(255, 255, 255, 0.41) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: -10px;
+}
+
+.btn-add:hover {
+  background-color: #1c2938;
+  transform: scale(1.05);
+  color: #6baef1;
+}
