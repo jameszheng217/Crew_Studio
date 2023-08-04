@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.description {
+  font-size: 2rem;
+}
+
+.hidden {
+  padding: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.hidden > .title {
+  margin-bottom: 1rem;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  align-items: center;
+  padding: 0 0 0 1rem;
+}
+
+.tribute blockquote {
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+.quote {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+.bio {
+  margin: 2rem auto;
+  padding: 0 0.5rem;
+  max-width: 1000px;
+}
+
+.bio > h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.bio > h5 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.bio > p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.bio > hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tribute {
+    display: block;
+  }
+
+  .tribute blockquote {
+    font-size: 1.8rem;
+  }
+
+  .quote {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bio > h2 {
+    font-size: 2.5rem;
+  }
+
+  .bio > h5 {
+    font-size: 1.8rem;
+  }
+
+  .bio > p {
+    font-size: 1.1rem;
+  }
+}
+
+.bio > h2,
+.bio > h5,
+.bio > p {
+  margin-bottom: 1rem; 
+}
