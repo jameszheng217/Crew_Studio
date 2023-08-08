@@ -36,7 +36,7 @@ Please ensure that your contributions align with the repository's purpose of sho
 
 ## License
 
-The projects in this repository are available under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as long as the license terms are followed.
+The Projects in this repository are available under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as long as the license terms are followed.
 
 ## Acknowledgments
 
